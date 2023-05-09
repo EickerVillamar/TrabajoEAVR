@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "logo motos servicios"
+        "logo speed contacto ";
+}
+
+.logo{
+    grid-area: logo;
+    background-color: rgb(124, 95, 151);
+}
+
+.motos{
+    grid-area: motos;
+    background-color: aqua;
+}
+
+.servicios{
+    grid-area: servicios;
+    background-color: beige;
+}
+
+.speed{
+    grid-area: speed;
+    background-color: rgb(108, 122, 122);
+}
+
+.contacto{
+    grid-area: contacto;
+    background-color: brown;
+}
+
+.container > div {
+    display: grid;
+    place-items: center;
+}

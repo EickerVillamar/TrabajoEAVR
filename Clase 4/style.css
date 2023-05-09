@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 0;
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+}
+
+.menu{
+    list-style-type: none;
+    background-color: rgb(157, 255, 0);
+    
+    padding-block: 10px;
+}
+
+.menu_item{
+    display: inline-block;
+    margin-inline: 10px;
+
+}
+
+.menu_item a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu_item.active a,
+.menu_item a:hover{
+
+    text-decoration: underline double  ;
+
+}
+
+main{
+    padding: 40px;
+}
+
+/* Cartas */
+
+
+
+.cartita{
+    width: 220px;
+    background-color: aqua;
+    padding: 100px;
+    display: inline-block;
+    margin-inline: 10px;
+    height: 325px;
+    overflow: scroll;
+    position: relative;
+    border:  2px dashed #da62df;
+}
+
+.cartita_imagen{
+    width: 100%;
+}
+
+.cartita_titulo{
+    font-size: 25px;
+}
+
+.cartita_parrafo{
+
+    font-size: 19px;
+}
+
+
+.cartita_boton{
+    background-color: rgb(115, 241, 103);
+    border: none;
+    padding: 11px;
+    border-radius: 10px;
+}
+
+.cartita_imagen,
+.cartita_titulo,
+.cartita_parrafo{
+    margin-bottom: 10px;
+}
+
+.cartita_marca{
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.marca{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+}
